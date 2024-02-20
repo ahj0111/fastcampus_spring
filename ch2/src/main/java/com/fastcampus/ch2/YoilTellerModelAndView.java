@@ -13,7 +13,7 @@ import java.util.Calendar;
 
 @Controller 
 public class YoilTellerModelAndView {
-	   	@RequestMapping("/getYoilMVC")
+	@RequestMapping("/getYoilMAVMVC")
 	   	public ModelAndView main(int year, int month, int day) throws IOException{
 	   		
 	   		ModelAndView mv = new ModelAndView();

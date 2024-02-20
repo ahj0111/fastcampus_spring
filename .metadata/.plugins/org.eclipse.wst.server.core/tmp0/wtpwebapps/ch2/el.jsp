@@ -2,6 +2,7 @@
 <%@ taglib prefix="c"   uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ page import="com.fastcampus.ch2.*" %>
+<%-- <%! lv를 사용하기 위해 request 저장소에 저장 %> --%>
 <%
 	Person person = new Person();
 	request.setAttribute("person", person);
